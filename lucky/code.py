@@ -1,4 +1,4 @@
-with open("lucky-main\\lucky\\mydefaults.ini.txt", "r") as ini_file:
+with open("lucky-main\\lucky-main\\lucky\\mydefaults.ini.txt", "r") as ini_file:
     data = ini_file.read()
 
 characters = 0
@@ -13,5 +13,5 @@ for char in data:
 print(f"The number of characters is {characters}")
 print(f"the number of digits is {numbers}")
 
-f = open("lucky-main\\lucky\\counter.txt", "x")
+f = open("lucky-main\\lucky-main\\lucky\\counter.txt", "x")
 f.write(f"The number of characters is {characters}, and the number of digits is {numbers}")
